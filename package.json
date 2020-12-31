@@ -1,0 +1,23 @@
+{
+  "name": "JBD-Panel",
+  "version": "1.0.0",
+  "description": "Convert Website to Desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sammera Damith (CodeStack)",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-builder": "^22.4.1"
+  },
+  "build": {
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  },
+  "dependencies": {
+    "cjs-loader": "^0.1.0"
+  }
+}
